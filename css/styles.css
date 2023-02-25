@@ -1,0 +1,42 @@
+body {
+  background-color: burlywood;
+}
+.body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  margin:  10vh auto;
+  width: 600px;
+  height: 800px;
+  border-radius: 50px;
+}
+.qr-code {
+  width: 500px;
+  border-radius: 25px;
+  margin-left: 50px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  text-align: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text h1 {
+  font-size: 50px;
+  text-align: center;
+}
+.text p {
+  text-align: center;
+  color: gray;
+  font-size: 30px;
+}
